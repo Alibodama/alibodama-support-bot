@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alibodama-support-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-06",
+  "workers_dev": true,
+  "vars": {
+    "ADMIN_CHAT_ID": "6804185478",
+    "CHANNEL_URL": "https://t.me/alibodama",
+    "YOUTUBE_URL": "https://youtube.com/@alibodama",
+    "GITHUB_URL": "https://github.com/Alibodama"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "alibodama-support-db"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "REPLACE_WITH_KV_NAMESPACE_ID"
+    }
+  ]
+}
